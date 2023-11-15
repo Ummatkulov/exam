@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ' Montserrat';
+    height: 200%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9daa;
+}
+
+.card {
+    height: 600px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.image {
+    width: 100%;
+    height: 180px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.profile {
+    .box-1 {
+        box-shadow: -15px 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .box-2 {
+        box-shadow: 15px 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 15px;
+    background: #fff;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+
+
+.content {
+    width: 100%;
+    height: calc(600px - 180px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.dot {
+    align-self: flex-end;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.follow-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #FED01A;
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 18px;
+    color:#333;
+    cursor: pointer;
+  }
+
+ 
+
+  .Name{
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-weight: 900;
+  }
+
+  .title{
+    margin-top: -25px;
+    color: #b5b5b5;
+  }
+
+  .Obunachi{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: rgba(35,155,233,255);
+    font-weight: 700;
+  }
+
+  .following{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: rgba(35,155,233,255);
+    font-weight: 700;
+  }
+
+.korinmas{
+    color: #b5b5b5;
+}
+
+.yozuv{
+    color: #b5b5b5;
+}
+
+.info{
+    font-family: Montserrat;
+    font-size: 15px;
+   
+
+}
+
+.uchtalik{
+    margin-left: 150%;
+    margin-top: -40px;
+
+}
